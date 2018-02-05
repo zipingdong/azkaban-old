@@ -133,7 +133,7 @@
                                 </li>
                             #end
                         #else
-                            <li class="list-group-item"></li>
+                            <li class="list-group-item">&nbsp;</li>
                         #end
                     </ul>
                 </div><!-- /panel -->
@@ -150,7 +150,7 @@
                                 </li>
                             #end
                         #else
-                            <li class="list-group-item"></li>
+                            <li class="list-group-item">&nbsp;</li>
                         #end
 
                     </ul>
@@ -166,7 +166,7 @@
                                 </li>
                             #end
                         #else
-                            <li class="list-group-item">No Property Files For This Job</li>
+                            <li class="list-group-item">&nbsp;</li>
                         #end
                     </ul>
                 </div><!-- /panel -->
