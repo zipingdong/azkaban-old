@@ -101,15 +101,15 @@
                         <tr id="tr_job_command">
                             <td class="property-key">SQL</td>
                             <td>
-                                <pre id="job_command" class="ace_editor" style="min-height:800px">
-                                    <textarea class="ace_text-input">$!job.command</textarea></pre>
+                                <pre id="job_command" class="ace_editor" style="min-height:800px"><textarea
+                                        class="ace_text-input">$!job.command</textarea></pre>
                             </td>
                         </tr>
                         <tr>
                             <td class="property-key">依赖作业</td>
                             <td>
                                 <textarea id="job_dependencies" type="text" class="form-control input-sm"
-                                          style="resize:none;" rows="3"
+                                          style="resize:none;" rows="6"
                                           placeholder="英文逗号分隔，无先后顺序要求">$!job.dependencies</textarea>
                             </td>
                         </tr>
