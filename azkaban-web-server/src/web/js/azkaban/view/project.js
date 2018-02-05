@@ -87,8 +87,8 @@ azkaban.FlowTableView = Backbone.View.extend({
         var nodes = data.nodes;
         var flowId = data.flowId;
         var project = data.project;
-        //var requestURL = contextURL + "/manager?project=" + project + "&flow=" + flowId + "&job=";
-        var requestURL = contextURL + "/manager?project=" + project + "&jobEdit&job=";
+        var requestURL = contextURL + "/manager?project=" + project + "&flow=" + flowId + "&job=";
+        // var requestURL = contextURL + "/manager?project=" + project + "&jobEdit&job=";
         for (var i = 0; i < nodes.length; i++) {
             var job = nodes[i];
             var name = job.id;

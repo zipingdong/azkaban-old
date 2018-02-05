@@ -87,11 +87,11 @@
 
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <div class="pull-right">
+                        <!--<div class="pull-right">
                             <button id="edit-job-btn" class="btn btn-xs btn-primary"
                                     onclick='jobEditView.show("${project.name}", "${flowid}", "${jobid}")'>Edit
                             </button>
-                        </div>
+                        </div>-->
                         Job Properties
                     </div>
 
@@ -233,4 +233,3 @@
     #end
 </body>
 </html>
-
