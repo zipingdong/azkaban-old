@@ -38,6 +38,7 @@ azkaban.ExecutionListView = Backbone.View.extend({
     var lastTime = data.endTime == -1 ? (new Date()).getTime() : data.endTime;
     var executingBody = $("#executableBody");
     this.updateJobRow(data.nodes, executingBody);
+    $("#executingJobs").tablesorter();
 
     var flowLastTime = data.endTime == -1 ? (new Date()).getTime()
         : data.endTime;
@@ -74,6 +75,7 @@ azkaban.ExecutionListView = Backbone.View.extend({
 
     if (update.nodes) {
       this.updateJobRow(update.nodes, executingBody);
+      $("#executingJobs").tablesorter();
     }
 
     var data = this.model.get("data");
