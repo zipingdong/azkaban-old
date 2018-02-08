@@ -5,6 +5,7 @@
 用户登录信息同上
 
 ## 项目
+##### [截图](https://github.com/zipingdong/azkaban/blob/master/snapshot/project.png)
 隐藏项目页面中的“Upload”、“Download”按钮
 
 项目页面中添加“Create Job”、“Refresh Project”按钮
@@ -16,6 +17,7 @@
 项目中刷新项目不再使用上传压缩包的形式，改为从数据库读取作业信息，然后生成工作流
 
 ## 作业
+##### [截图](https://github.com/zipingdong/azkaban/blob/master/snapshot/createjob.png)
 添加短信报警功能，并自动读取作业创建者的手机号，发送短信
 
 工作流作业展开列表中添加在线 “Edit Job”、“Delete Job”功能
